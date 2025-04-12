@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+header h1{
+    font-family: "Bebas Neue", sans-serif;
+}
+header ul{
+    list-style: none;
+}
+header button{
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: red;
+    color: #fff;
+}

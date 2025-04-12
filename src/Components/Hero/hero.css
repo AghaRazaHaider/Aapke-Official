@@ -1,0 +1,38 @@
+.hero{
+    text-align: center;
+    height: 70vh;
+}
+.hero-center{
+    margin-top: 50px;
+}
+.hero .banner, .hero .banner img{
+    width: 100%;
+    border-radius: 10px;
+}
+.hero h1{
+    font-size: 1.8rem;
+}
+.hero p{
+    font-size: 1.1rem;
+}
+.hero-btns{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.hero-btns button{
+    font-size: 1rem;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.hero-btns button:nth-child(2){
+    background-color: red;
+    color: #fff;
+}
+.hero-btns button:nth-child(1){
+    background-color: #0f0f0f;
+    color: #fff;
+}
