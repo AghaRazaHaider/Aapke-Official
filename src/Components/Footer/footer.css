@@ -2,5 +2,31 @@ footer{
     margin-top: 50px;
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
     background-color: #ececec;
+}
+.footer-sec-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d0d5db;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.footer-sec-1 p{
+    font-size: 0.8rem;
+    color: #1f2a38;
+    align-items: center;
+}
+.footer-sec-1 .footer-icon-yt{
+    color: red;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.footer-copyright{
+    margin-top: 15px;
+}
+.footer-copyright h6{
+    font-weight: 500;
+    font-size: 1rem;
 }
